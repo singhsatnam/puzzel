@@ -56,7 +56,7 @@
       <recent name="C:\Users\ssatn\work\puzzel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.alternating_cells">
+  <component name="RunManager" selected="Python.least_recently_used">
     <configuration name="alternating_cells" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="puzzel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +78,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contains_positive_and_negative" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="least_recently_used" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="puzzel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,7 +90,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzel/contains_positive_and_negative.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzel/least_recently_used.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.least_recently_used" />
         <item itemvalue="Python.alternating_cells" />
         <item itemvalue="Python.top_competitors" />
         <item itemvalue="Python.template" />
         <item itemvalue="Python.two_sum" />
-        <item itemvalue="Python.contains_positive_and_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -199,29 +199,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1771" height="343" key="GridCell.Tab.0.bottom" timestamp="1620238959647">
-      <screen x="0" y="25" width="1792" height="1022" />
+    <state width="865" height="259" key="GridCell.Tab.0.bottom" timestamp="1620276500116">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
-    <state width="1771" height="343" key="GridCell.Tab.0.bottom/0.25.1792.1022@0.25.1792.1022" timestamp="1620238959647" />
-    <state width="1771" height="343" key="GridCell.Tab.0.center" timestamp="1620238959646">
-      <screen x="0" y="25" width="1792" height="1022" />
+    <state width="865" height="259" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1620276500116" />
+    <state width="1771" height="235" key="GridCell.Tab.0.bottom/0.25.1792.1022@0.25.1792.1022" timestamp="1620254973995" />
+    <state width="865" height="259" key="GridCell.Tab.0.center" timestamp="1620276500115">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
-    <state width="1771" height="343" key="GridCell.Tab.0.center/0.25.1792.1022@0.25.1792.1022" timestamp="1620238959646" />
-    <state width="1771" height="343" key="GridCell.Tab.0.left" timestamp="1620238959645">
-      <screen x="0" y="25" width="1792" height="1022" />
+    <state width="865" height="259" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1620276500115" />
+    <state width="1771" height="235" key="GridCell.Tab.0.center/0.25.1792.1022@0.25.1792.1022" timestamp="1620254973994" />
+    <state width="865" height="259" key="GridCell.Tab.0.left" timestamp="1620276500114">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
-    <state width="1771" height="343" key="GridCell.Tab.0.left/0.25.1792.1022@0.25.1792.1022" timestamp="1620238959645" />
-    <state width="1771" height="343" key="GridCell.Tab.0.right" timestamp="1620238959646">
-      <screen x="0" y="25" width="1792" height="1022" />
+    <state width="865" height="259" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1620276500114" />
+    <state width="1771" height="235" key="GridCell.Tab.0.left/0.25.1792.1022@0.25.1792.1022" timestamp="1620254973993" />
+    <state width="865" height="259" key="GridCell.Tab.0.right" timestamp="1620276500116">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
-    <state width="1771" height="343" key="GridCell.Tab.0.right/0.25.1792.1022@0.25.1792.1022" timestamp="1620238959646" />
-    <state x="405" y="172" key="SettingsEditor" timestamp="1620085503143">
-      <screen x="0" y="25" width="1792" height="1022" />
+    <state width="865" height="259" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1620276500116" />
+    <state width="1771" height="235" key="GridCell.Tab.0.right/0.25.1792.1022@0.25.1792.1022" timestamp="1620254973994" />
+    <state x="405" y="161" key="SettingsEditor" timestamp="1620274209519">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="405" y="161" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1620274209519" />
     <state x="405" y="172" key="SettingsEditor/0.25.1792.1022@0.25.1792.1022" timestamp="1620085503143" />
     <state x="597" y="262" width="597" height="548" key="find.popup" timestamp="1620086756532">
       <screen x="0" y="25" width="1792" height="1022" />
