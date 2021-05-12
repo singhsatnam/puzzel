@@ -52,14 +52,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ssatn\work\puzzel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.three_sum">
+  <component name="RunManager" selected="Python.find_median">
     <configuration name="alternating_cells" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="puzzel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="least_recently_used" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_median" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="puzzel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzel/least_recently_used.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzel/find_median.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.find_median" />
         <item itemvalue="Python.three_sum" />
         <item itemvalue="Python.association_major" />
         <item itemvalue="Python.dfs" />
         <item itemvalue="Python.alternating_cells" />
-        <item itemvalue="Python.least_recently_used" />
       </list>
     </recent_temporary>
   </component>
@@ -202,35 +202,35 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1766" height="371" key="GridCell.Tab.0.bottom" timestamp="1620777820269">
+    <state width="1766" height="281" key="GridCell.Tab.0.bottom" timestamp="1620801103759">
       <screen x="0" y="25" width="1792" height="1022" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
     <state width="1767" height="218" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1620553596364" />
-    <state width="1766" height="371" key="GridCell.Tab.0.bottom/0.25.1792.1022@0.25.1792.1022" timestamp="1620777820269" />
-    <state width="1766" height="371" key="GridCell.Tab.0.center" timestamp="1620777820268">
+    <state width="1766" height="281" key="GridCell.Tab.0.bottom/0.25.1792.1022@0.25.1792.1022" timestamp="1620801103759" />
+    <state width="1766" height="281" key="GridCell.Tab.0.center" timestamp="1620801103757">
       <screen x="0" y="25" width="1792" height="1022" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
     <state width="1767" height="218" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1620553596363" />
-    <state width="1766" height="371" key="GridCell.Tab.0.center/0.25.1792.1022@0.25.1792.1022" timestamp="1620777820268" />
-    <state width="1766" height="371" key="GridCell.Tab.0.left" timestamp="1620777820267">
+    <state width="1766" height="281" key="GridCell.Tab.0.center/0.25.1792.1022@0.25.1792.1022" timestamp="1620801103757" />
+    <state width="1766" height="281" key="GridCell.Tab.0.left" timestamp="1620801103755">
       <screen x="0" y="25" width="1792" height="1022" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
     <state width="1767" height="218" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1620553596363" />
-    <state width="1766" height="371" key="GridCell.Tab.0.left/0.25.1792.1022@0.25.1792.1022" timestamp="1620777820267" />
-    <state width="1766" height="371" key="GridCell.Tab.0.right" timestamp="1620777820268">
+    <state width="1766" height="281" key="GridCell.Tab.0.left/0.25.1792.1022@0.25.1792.1022" timestamp="1620801103755" />
+    <state width="1766" height="281" key="GridCell.Tab.0.right" timestamp="1620801103758">
       <screen x="0" y="25" width="1792" height="1022" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
     <state width="1767" height="218" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1620553596364" />
-    <state width="1766" height="371" key="GridCell.Tab.0.right/0.25.1792.1022@0.25.1792.1022" timestamp="1620777820268" />
-    <state x="405" y="161" key="SettingsEditor" timestamp="1620280915592">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1766" height="281" key="GridCell.Tab.0.right/0.25.1792.1022@0.25.1792.1022" timestamp="1620801103758" />
+    <state x="405" y="144" key="SettingsEditor" timestamp="1620799866245">
+      <screen x="0" y="25" width="1792" height="1022" />
     </state>
     <state x="405" y="161" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1620280915592" />
-    <state x="405" y="172" key="SettingsEditor/0.25.1792.1022@0.25.1792.1022" timestamp="1620085503143" />
+    <state x="405" y="144" key="SettingsEditor/0.25.1792.1022@0.25.1792.1022" timestamp="1620799866245" />
     <state x="597" y="260" width="715" height="601" key="find.popup" timestamp="1620280653614">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
