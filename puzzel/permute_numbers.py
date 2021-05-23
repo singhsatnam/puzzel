@@ -1,6 +1,9 @@
+from typing import List
+
+
 class Solution:
     # DFS
-    def permute(self, nums):
+    def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
         self.dfs(nums, [], res)
         return res

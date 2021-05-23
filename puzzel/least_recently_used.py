@@ -1,26 +1,27 @@
+import collections
+
+
 class LRUCache(dict):
     def __init__(self, capacity):
-        super().__init__()
-        self.available = capacity
+        self.dic = collections.OrderedDict()
+        self.remain = capacity
 
     def get(self, key):
-        if key in self:
-            val = self.pop(key)
-            self[key] = val
-            return val
-        else:
+        if key not in self.dic:
             return -1
+        v = self.dic.pop(key)
+        self.dic[key] = v  # set key as the newest one
+        return v
 
     def set(self, key, value):
-        if key in self:
-            self.pop(key)
-            self.available += 1
+        if key in self.dic:
+            self.dic.pop(key)
         else:
-            if self.available == 0:
-                self.pop(next(iter(self)))
-                self.available += 1
-        self[key] = value
-        self.available -= 1
+            if self.remain > 0:
+                self.remain -= 1
+            else:  # self.dic is full
+                self.dic.popitem(last=False)
+        self.dic[key] = value
 
 
 obj = LRUCache(2)
