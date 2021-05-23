@@ -59,8 +59,8 @@
       <recent name="C:\Users\ssatn\work\puzzel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.min_stack">
-    <configuration name="merge_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.least_recently_used">
+    <configuration name="least_recently_used" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="puzzel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzel/merge_lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzel/least_recently_used.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.least_recently_used" />
         <item itemvalue="Python.min_stack" />
         <item itemvalue="Python.word_ladder" />
         <item itemvalue="Python.word_search" />
         <item itemvalue="Python.permute_numbers" />
-        <item itemvalue="Python.merge_lists" />
       </list>
     </recent_temporary>
   </component>
