@@ -1,3 +1,4 @@
+import heapq
 from collections import Counter
 from heapq import heappush, heappop
 
@@ -32,7 +33,36 @@ class Solution:
             print(result)
             return "".join(result)
 
+    def reorganizeString2(self, S):
+        res, c = [], Counter(S)
+        pq = [(-value, key) for key, value in c.items()]
+
+        heapq.heapify(pq)
+        print(pq)
+        p_a, p_b = 0, ''
+        while pq:
+            a, b = heapq.heappop(pq)
+            print("popped: ", a, b)
+            print("remaining pq:", pq)
+            res.append(b)
+            print("res=", res)
+
+            print("a=", a)
+            a += 1
+            print("a=", a)
+            if p_a < 0:
+                print(p_a, " < 0")
+                heapq.heappush(pq, (p_a, p_b))
+                print(pq)
+            p_a, p_b = a, b
+            print("pa, pb=", p_a, p_b)
+
+        res = ''.join(res)
+        if len(res) != len(S): return ""
+        return res
+
+
 soln = Solution()
-soln.reorganizeString("aaaabbccc")
+soln.reorganizeString2("aaaabbccc")
 # Time O(N log(A)) = O(N); N=len(string), A=max(freq(letters))
 # Space O(A)
