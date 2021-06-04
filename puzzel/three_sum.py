@@ -45,8 +45,9 @@ class Solution:
         print("sorted nums=", nums)
         ans = []
         for i in range(len(nums) - 2):
-            print("i=", i, " nums[i]=", nums[i], " nums[i-1]=", nums[i - 1])
+
             if i == 0 or (i > 0 and nums[i] != nums[i - 1]):
+                print("i=", i, " nums[i]=", nums[i], " nums[i-1]=", nums[i - 1])
                 low = i + 1
                 high = len(nums) - 1
                 target = 0 - nums[i]
@@ -65,4 +66,4 @@ class Solution:
 
 
 solution = Solution()
-assert solution.threeSum([-1, 0, 1, 2, -1, -4])
+solution.get_three_sum([-1, 0, 1, 2, -1, -4])
