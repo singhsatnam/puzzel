@@ -26,4 +26,7 @@ class Solution:
 
 
 soln = Solution()
-print(soln.exist([["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], "SEE"))
+grid = [["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]]
+for ele in grid:
+    print(ele)
+print(soln.exist(grid, "ABCCE"))
