@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="63313109-acd8-4987-9262-3743966666c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzel/word_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/puzzel/word_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +59,8 @@
       <recent name="C:\Users\ssatn\work\puzzel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.word_search (1)">
-    <configuration name="optimal_utilization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.rover_control">
+    <configuration name="longest_increasing_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="puzzel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +68,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/puzzel/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzel/array/optimal_utilization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/longest_increasing_sequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spiral_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rover_control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="puzzel" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzel/matrix/spiral_matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/puzzel/matrix/rover_control.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.word_search (1)" />
+        <item itemvalue="Python.rover_control" />
+        <item itemvalue="Python.longest_increasing_sequence" />
         <item itemvalue="Python.word_search" />
+        <item itemvalue="Python.word_search (1)" />
         <item itemvalue="Python.rotate_matrix" />
-        <item itemvalue="Python.spiral_matrix" />
-        <item itemvalue="Python.optimal_utilization" />
       </list>
     </recent_temporary>
   </component>
@@ -203,30 +202,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1766" height="176" key="GridCell.Tab.0.bottom" timestamp="1623009765710">
+    <state width="1766" height="211" key="GridCell.Tab.0.bottom" timestamp="1623086057201">
       <screen x="0" y="25" width="1792" height="1022" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
     <state width="1767" height="218" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1620553596364" />
-    <state width="1766" height="176" key="GridCell.Tab.0.bottom/0.25.1792.1022@0.25.1792.1022" timestamp="1623009765710" />
-    <state width="1766" height="176" key="GridCell.Tab.0.center" timestamp="1623009765709">
+    <state width="1766" height="211" key="GridCell.Tab.0.bottom/0.25.1792.1022@0.25.1792.1022" timestamp="1623086057201" />
+    <state width="1766" height="211" key="GridCell.Tab.0.center" timestamp="1623086057201">
       <screen x="0" y="25" width="1792" height="1022" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
     <state width="1767" height="218" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1620553596363" />
-    <state width="1766" height="176" key="GridCell.Tab.0.center/0.25.1792.1022@0.25.1792.1022" timestamp="1623009765709" />
-    <state width="1766" height="176" key="GridCell.Tab.0.left" timestamp="1623009765709">
+    <state width="1766" height="211" key="GridCell.Tab.0.center/0.25.1792.1022@0.25.1792.1022" timestamp="1623086057201" />
+    <state width="1766" height="211" key="GridCell.Tab.0.left" timestamp="1623086057200">
       <screen x="0" y="25" width="1792" height="1022" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
     <state width="1767" height="218" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1620553596363" />
-    <state width="1766" height="176" key="GridCell.Tab.0.left/0.25.1792.1022@0.25.1792.1022" timestamp="1623009765709" />
-    <state width="1766" height="176" key="GridCell.Tab.0.right" timestamp="1623009765710">
+    <state width="1766" height="211" key="GridCell.Tab.0.left/0.25.1792.1022@0.25.1792.1022" timestamp="1623086057200" />
+    <state width="1766" height="211" key="GridCell.Tab.0.right" timestamp="1623086057201">
       <screen x="0" y="25" width="1792" height="1022" />
     </state>
     <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617251408199" />
     <state width="1767" height="218" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1620553596364" />
-    <state width="1766" height="176" key="GridCell.Tab.0.right/0.25.1792.1022@0.25.1792.1022" timestamp="1623009765710" />
+    <state width="1766" height="211" key="GridCell.Tab.0.right/0.25.1792.1022@0.25.1792.1022" timestamp="1623086057201" />
     <state x="405" y="144" key="SettingsEditor" timestamp="1620861730532">
       <screen x="0" y="25" width="1792" height="1022" />
     </state>
