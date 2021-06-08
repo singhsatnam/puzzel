@@ -2,6 +2,10 @@ from typing import List
 
 
 class Solution:
+    '''
+    maximum subarray
+    '''
+
     def maxSubArray(self, nums):
         dp = [0] * len(nums)
 

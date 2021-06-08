@@ -1,6 +1,8 @@
 class Solution():
     def pacificAtlantic(self, matrix):
         """
+        https://leetcode.com/problems/pacific-atlantic-water-flow/discuss/90739/Python-DFS-bests-85.-Tips-for-all-DFS-in-matrix-question.
+        https://leetcode.com/problems/pacific-atlantic-water-flow/discuss/438276/Python-beats-98.-DFS-template-for-Matrix
         :type matrix: List[List[int]]
         :rtype: List[List[int]]
         """

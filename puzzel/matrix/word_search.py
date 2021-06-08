@@ -1,5 +1,8 @@
 class Solution:
     def does_word_exist(self, grid, word):
+        '''
+        word search
+        '''
         if grid is None or word is None:
             return False
         for i in range(len(grid)):
