@@ -91,3 +91,4 @@ class CourseSchedule:
 
     def can_finish_queue(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         return True if self.topoBFS(numCourses, prerequisites) else False
+

@@ -27,10 +27,6 @@ class Solution(object):
         return len(s) - i
 
 
-soln = Solution()
-print(soln.characterReplacement("AABABBAAAA", 1))
-print(soln.characterReplacement("ABAB", 2))
-
 
 class Solution2:
     def characterReplacement(self, s: str, k: int) -> int:
@@ -62,3 +58,7 @@ class Solution2:
                 maxLength = max(maxLength, end - start + 1)
             end += 1
         return maxLength
+
+soln = Solution2()
+print(soln.characterReplacement("AABABBAAAA", 1))
+# print(soln.characterReplacement("ABAB", 2))

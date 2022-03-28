@@ -62,5 +62,3 @@ class Solution2:
 
 soln = Solution2()
 print(soln.get_num_islands(grid))
-
-

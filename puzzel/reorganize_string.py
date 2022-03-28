@@ -63,6 +63,6 @@ class Solution:
 
 
 soln = Solution()
-soln.reorganizeString2("aaaabbccc")
+print(soln.reorganizeString2("aaaabbccc"))
 # Time O(N log(A)) = O(N); N=len(string), A=max(freq(letters))
 # Space O(A)

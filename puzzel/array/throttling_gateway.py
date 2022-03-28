@@ -1,0 +1,29 @@
+def droppedRequest(requestTime):
+    dropped = 0
+    # https://leetcode.com/discuss/interview-question/819577/Throttling-Gateway-Hackerrank
+    # this is to keep track of any of the element that is already dropped due to any of 3 limit violation.
+    already_dropped = {}
+
+    for i in range(len(requestTime)):
+        if i > 2 and requestTime[i] == requestTime[i - 3]:
+            if requestTime[i] not in already_dropped or already_dropped[requestTime[i]] != i:
+                already_dropped[requestTime[i]] = i
+                dropped += 1
+                print(i, requestTime[i])
+
+        elif i > 19 and requestTime[i] - requestTime[i - 20] < 10:
+            if requestTime[i] not in already_dropped or already_dropped[requestTime[i]] != i:
+                already_dropped[requestTime[i]] = i
+                dropped += 1
+                print(i, requestTime[i])
+
+        elif i > 59 and requestTime[i] - requestTime[i - 60] < 60:
+            if requestTime[i] not in already_dropped or already_dropped[requestTime[i]] != i:
+                already_dropped[requestTime[i]] = i
+                dropped += 1
+                print(i, requestTime[i])
+
+    return dropped
+
+
+print(droppedRequest([1, 1, 1, 1, 2]))

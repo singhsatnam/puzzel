@@ -79,4 +79,4 @@ reviews = [
 ]
 
 
-topNCompetitors(numCompetitors, topNCompetitorss, competitors, None, reviews)
+print(topNCompetitors(numCompetitors, topNCompetitorss, competitors, None, reviews))

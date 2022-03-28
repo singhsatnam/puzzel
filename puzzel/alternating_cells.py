@@ -4,6 +4,8 @@ import collections
 
 class Solution:
     def get_count_of_mutations(self, starting_grid: List[List[int]]) -> int:
+        for ele in starting_grid:
+            print(ele)
         count_row = len(starting_grid)
         count_column = len(starting_grid[0])
         q = collections.deque()
@@ -33,3 +35,8 @@ class Solution:
 
 solution = Solution()
 assert solution.get_count_of_mutations([[2, 1, 0], [0, 0, 2], [1, 1, 1]]) == 3
+
+A  | B
+10   10
+14   12
+16   15

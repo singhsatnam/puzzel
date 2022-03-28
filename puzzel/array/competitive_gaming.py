@@ -17,4 +17,5 @@ class Solution():
 
 
 soln = Solution()
-soln.get_count_of_players_who_can_upgrade(12, 7, [10, 9, 9, 9, 9, 5, 5, 2, 2, 2, 1, 1])
+res = soln.get_count_of_players_who_can_upgrade(12, 7, [10, 9, 9, 9, 9, 5, 5, 2, 2, 2, 1, 1])
+print("res=", res)

@@ -21,27 +21,27 @@ import heapq
 #         return [heapq.heappop(min_heap)[1] for _ in range(len(min_heap))][::-1]
 #
 #
-# quo = ["Emo is the hottest of the season! Elmo will be on every kid's wishlist!",
-# "The new Elmo dolls are super high quality",
-# "Expect the Elsa dolls to be very popular this year",
-#                 "Elsa and Elmo are the toys I'll be buying for my kids",
-#                 "For parents of older kids, look into buying them a drone",
-#                 "Warcraft is slowly rising in popularity ahead of the holiday season"]
+quo = ["Emo is the hottest of the season! Elmo will be on every kid's wishlist!",
+"The new Elmo dolls are super high quality",
+"Expect the Elsa dolls to be very popular this year",
+                "Elsa and Elmo are the toys I'll be buying for my kids",
+                "For parents of older kids, look into buying them a drone",
+                "Warcraft is slowly rising in popularity ahead of the holiday season"]
 #
 # sol = Solution()
 # print(sol.topKFrequent(quo, 4))
 #
 #
-# def topKFrequent2(words, k):
-#     d = {}
-#     for word in words:
-#         d[word] = d.get(word, 0) + 1
-#
-#     ret = sorted(d, key=lambda word: (-d[word], word))
-#
-#     return ret[:k]
-#
-# print(topKFrequent2(quo, 2))
+def topKFrequent2(words, k):
+    d = {}
+    for word in words:
+        d[word] = d.get(word, 0) + 1
+
+    ret = sorted(d, key=lambda word: (-d[word], word))
+
+    return ret[:k]
+
+print(topKFrequent2(quo, 2))
 #
 # k = 2
 # keywords = ["anacell", "betacellular", "cetracular", "deltacellular", "eurocell"]
@@ -117,5 +117,5 @@ reviews = [
 ]
 
 
-print(topNcompetitors(numCompetitors, None, competitors,
+print(topNcompetitors(numCompetitors, topNCompetitors, competitors,
                     numReviews, reviews))

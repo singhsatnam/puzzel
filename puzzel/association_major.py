@@ -4,6 +4,7 @@ import collections
 def get_association_major(l):
     visited = []
     d = collections.defaultdict(list)
+    print("dict: ", d)
     print("received: ", l)
 
     def dfs(item, output):
@@ -34,6 +35,7 @@ def get_association_major(l):
             output = []
             dfs(item, output)
             output.sort()
+            print("output=", output)
             if len(res) == 0 or len(output) > len(res):
                 res = output
             elif len(output) == len(res):
@@ -42,7 +44,7 @@ def get_association_major(l):
     return res
 
 
-print(func([['A', 'B'], ['D', 'E'], ['C', 'D']]) == ['C', 'D', 'E'])
+print(get_association_major([['A', 'B'], ['D', 'E'], ['C', 'D']]) == ['C', 'D', 'E'])
 # print(func([['A', 'B'], ['C', 'D'], ['F', 'E']]) == ['A', 'B'])
 # print(func([['A', 'B'], ['C', 'D'], ['D', 'E'], ['F', 'E']]) == ['C', 'D', 'E', 'F'])
 # print(func([['A', 'B'], ['C', 'D'], ['D', 'E'], ['F', 'E'], ['A', 'C']]) == ['A', 'B', 'C', 'D', 'E', 'F'])
