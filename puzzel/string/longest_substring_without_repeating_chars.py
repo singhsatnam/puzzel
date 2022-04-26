@@ -57,6 +57,7 @@ class Solution3:
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         chars = [0] * 128
+        print(chars)
 
         left = right = 0
 
@@ -64,13 +65,21 @@ class Solution:
         while right < len(s):
             r = s[right]
             chars[ord(r)] += 1
+            print("increasing fre of ", r)
 
+            # increment left to the point where substr[left:rigt] becomes unique again
             while chars[ord(r)] > 1:
+                print("freq of ", r, " is more than 1")
                 l = s[left]
+                print(l)
                 chars[ord(l)] -= 1
+                print("reduced freq of ", l)
                 left += 1
+                print("incremented left")
 
+            print("left/right", left, right)
             res = max(res, right - left + 1)
+            print("res = ", res)
 
             right += 1
         return res
@@ -78,6 +87,6 @@ class Solution:
 
 soln = Solution()
 print("abcabcbb")
-print(soln.lengthOfLongestSubstring("abcabcbb"))
+# print(soln.lengthOfLongestSubstring("abcabcbb"))
 print("pwwkew")
-print(soln.lengthOfLongestSubstring("pwwkew"))
+print(soln.lengthOfLongestSubstring("abcdcefg"))
